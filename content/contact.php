@@ -1,58 +1,47 @@
 <!-- Portfolio Item Heading -->
 <h1 class="my-4">Contact
-  <small>Secondary Text</small>
 </h1>
 
 <!-- Portfolio Item Row -->
 <div class="row">
 
   <div class="col-md-8">
-    <img class="img-fluid" src="htdocs/img/750x500.png" alt="">
+    <iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;coord=57.7072326, 11.9670171&amp;q=g%C3%B6teborg+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Create Google Map</a></iframe>
   </div>
+
+
+
+
 
   <div class="col-md-4">
-    <h3 class="my-3">Project Description</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-    <h3 class="my-3">Project Details</h3>
-    <ul>
-      <li>Lorem Ipsum</li>
-      <li>Dolor Sit Amet</li>
-      <li>Consectetur</li>
-      <li>Adipiscing Elit</li>
-    </ul>
+      <form role="form" method="post" id="reused_form"   >
+             <div class="form-group">
+                 <label for="name">
+                     Name:</label>
+                 <input type="text" class="form-control"
+                 id="name" name="name"  required maxlength="50">
+
+             </div>
+             <div class="form-group">
+                 <label for="email">
+                     Email:</label>
+                 <input type="email" class="form-control"
+                 id="email" name="email" required maxlength="50">
+             </div>
+             <div class="form-group">
+                 <label for="name">
+                     Message:</label>
+                 <textarea class="form-control" type="textarea" name="message"
+                 id="message" placeholder="Your Message Here"
+                 maxlength="6000" rows="7"></textarea>
+             </div>
+             <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It! →</button>
+
+         </form>
   </div>
 
 </div>
 <!-- /.row -->
 
-<!-- Related Projects Row -->
-<h3 class="my-4">Related Projects</h3>
-
-<div class="row">
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-      <img class="img-fluid" src="htdocs/img/500x300.png" alt="">
-    </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-      <img class="img-fluid" src="htdocs/img/500x300.png" alt="">
-    </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-      <img class="img-fluid" src="htdocs/img/500x300.png" alt="">
-    </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-      <img class="img-fluid" src="htdocs/img/500x300.png" alt="">
-    </a>
-  </div>
-
+<div class="row repons">
 </div>
-<!-- /.row -->
