@@ -31,8 +31,17 @@ switch ($page) {
         $file = "$page.php";
         break;
 
+    case 'service_two':
+        $title="Service2|site";
+        $file = "$page.php";
+        break;
+
     case 'contact':
         $title="Contact|site";
+        $file = "$page.php";
+        break;
+    case 'blog':
+        $title="Blog|site";
         $file = "$page.php";
         break;
     default:
